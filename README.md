@@ -1,6 +1,7 @@
 # AKKA awesome
 
 ## SCALA and AKKA
+
 * How to code in Scala
 	* (A quick intro from twitter) https://twitter.github.io/scala_school/basics.html
     * Effective scala: http://twitter.github.io/effectivescala/
@@ -14,7 +15,6 @@
     * using typesafe console http://resources.typesafe.com/docs/console/manual/getting-started.html
     * https://github.com/alexandru/scala-best-practices
     * Some useful libs for scala: https://github.com/lauris/awesome-scala
-
 * scala projects 
     * github https://github.com/trending?l=scala
     * template http://www.typesafe.com/activator/templates 
@@ -22,20 +22,24 @@
 * Start your first scala project: http://www.johnmurray.io/log/2014/04/15/Starting-a-Scala-Project.html
 
 ## Why Scala
+
 JVM and Java compatibility 
 Functional and OO style: productivity
 Actor: flexible scale up/down, maintainable, fault tolerance *
 Real time: Scala is built for stream, async processing (lambda, future, promise)
 
 ## Why AKKA 
+
 https://www.typesafe.com/community/core-projects/akka
 http://blog.confluent.io/2015/01/29/making-sense-of-stream-processing/
 http://www.typesafe.com/blog/reactive-streams-webinar-qa
 
 ### How to code in Akka stream
+
 http://doc.akka.io/docs/akka-stream-and-http-experimental/1.0-M2/scala/stream-cookbook.html
 
 ### Async style programming
+
 Scala and AKKA is non-blocking async language. Please familiar yourself with concepts such as Future and Promise
 
 ## Actors
@@ -53,6 +57,7 @@ Actor is built for share nothing. But sometime it has to use share status: http:
 Akka persistent: http://www.slideshare.net/ktoso/akka-persistence-event-sourcing-in-30-minutes
 
 ## Multi tenant
+
 * Each account will has its own actor system
 
 ## AKKA streem
@@ -62,6 +67,16 @@ Akka persistent: http://www.slideshare.net/ktoso/akka-persistence-event-sourcing
 * Akka stream custom process stage (writing nodes in CEP network) http://doc.akka.io/docs/akka-stream-and-http-experimental/1.0-M4/scala/stream-customize.html
 * Using actor with stream: http://doc.akka.io/docs/akka-stream-and-http-experimental/1.0-M4/scala/stream-integrations.html
 * http://doc.akka.io/docs/akka-stream-and-http-experimental/1.0-M5/stream-design.html
+
+### Important cencepts
+
+* Graph: Flow (lines in the graph e.g., f1, f2 … ) + source (in) + sink (out) + junctions (bcast and merge)
+* Flow:  A linear processing unit composited by stages e.g., f1:  s1=>s2=>s3
+* Stage:  The basic processing unit, which can be 
+	* pull
+    * push
+    * pushpull (for most stream processing)
+    * stateful (if change internal status)
 
 ### Code samples
 
@@ -83,6 +98,7 @@ Akka persistent: http://www.slideshare.net/ktoso/akka-persistence-event-sourcing
 
 
 ### Other
+
 * FSM in AKKA http://doc.akka.io/docs/akka/snapshot/scala/fsm.html
 * AKKA CEP with stream http://typesafe.com/activator/template/akka-with-esper#code/src/main/scala/experiments/streams/StreamCEP.scala
 * Scala scheduler http://doc.akka.io/docs/akka/2.0/scala/scheduler.html
