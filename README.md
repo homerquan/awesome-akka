@@ -1,5 +1,7 @@
 # AKKA awesome
 
+Author: Homer Quan (hi@homerquan.com)
+
 ## SCALA and AKKA
 
 * How to code in Scala
