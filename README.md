@@ -1,4 +1,4 @@
-# AKKA awesome
+# Awesome AKKA
 
 Author: Homer Quan (hi@homerquan.com)
 
