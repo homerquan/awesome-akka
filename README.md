@@ -54,6 +54,8 @@ Find vehicles by spitial query: build index in memory http://jspatial.sourceforg
 
 Actor is built for share nothing. But sometime it has to use share status: http://stackoverflow.com/questions/7307217/akka-sharing-mutable-state
 
+Common Actor patterns https://doc.akka.io/docs/akka/2.5.4/scala/howto.html
+
 ## HA
 
 Akka persistent: http://www.slideshare.net/ktoso/akka-persistence-event-sourcing-in-30-minutes
