@@ -22,6 +22,7 @@ Author: Homer Quan (hi@homerquan.com)
     * template http://www.typesafe.com/activator/templates 
     * alternative template: https://github.com/dph01/scala-sbt-template
 * Start your first scala project: http://www.johnmurray.io/log/2014/04/15/Starting-a-Scala-Project.html
+* Best practices in coding: https://github.com/alexandru/scala-best-practices
 
 ## Why Scala
 
