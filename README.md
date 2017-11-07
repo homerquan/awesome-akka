@@ -1,6 +1,6 @@
 # Awesome AKKA
 
-Author: Homer Quan (hi@homerquan.com)
+Author: Homer Quan (hi@homerquan.me)
 
 ## SCALA and AKKA
 
