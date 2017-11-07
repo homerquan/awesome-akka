@@ -18,6 +18,7 @@ Author: Homer Quan (hi@homerquan.com)
     * https://github.com/alexandru/scala-best-practices
     * Some useful libs for scala: https://github.com/lauris/awesome-scala
 * scala projects 
+    * Official samples: https://github.com/akka/akka-samples
     * github https://github.com/trending?l=scala
     * template http://www.typesafe.com/activator/templates 
     * alternative template: https://github.com/dph01/scala-sbt-template
