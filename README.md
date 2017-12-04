@@ -73,6 +73,7 @@ Akka persistent: http://www.slideshare.net/ktoso/akka-persistence-event-sourcing
 * Akka stream custom process stage (writing nodes in CEP network) http://doc.akka.io/docs/akka-stream-and-http-experimental/1.0-M4/scala/stream-customize.html
 * Using actor with stream: http://doc.akka.io/docs/akka-stream-and-http-experimental/1.0-M4/scala/stream-integrations.html
 * http://doc.akka.io/docs/akka-stream-and-http-experimental/1.0-M5/stream-design.html
+* Integrating Akka Streams and Actors http://blog.colinbreck.com/integrating-akka-streams-and-akka-actors-part-i/
 
 ### Important cencepts
 
