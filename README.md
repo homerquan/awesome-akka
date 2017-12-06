@@ -114,3 +114,4 @@ Akka persistent: http://www.slideshare.net/ktoso/akka-persistence-event-sourcing
 * http://doc.akka.io/docs/akka/2.0/scala/dataflow.html
 * http://www.scala-lang.org/api/2.10.4/index.html#scala.util.continuations.package
 * https://github.com/scala/async  
+* Streaming and online algorithms for Akka: https://github.com/gosubpl/akka-online
